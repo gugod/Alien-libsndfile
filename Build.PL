@@ -11,6 +11,7 @@ my $builder = My::ModuleBuild->new(
     license => 'mit',
     configure_requires => {
         'Alien::Base' => 0,
+        'Module::Build' => 0.28,
     },
     requires => {
         'perl' => '5.8.1',
