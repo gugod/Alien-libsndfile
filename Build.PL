@@ -19,11 +19,11 @@ my $builder = My::ModuleBuild->new(
     },
     alien_name => 'libsndfile',
     alien_repository => {
-        # http://www.mega-nerd.com/libsndfile/files/libsndfile-1.0.27.tar.gz
+        # http://www.mega-nerd.com/libsndfile/files/libsndfile-1.0.28.tar.gz
         protocol => "http",
         host => "www.mega-nerd.com",
         location => "/libsndfile/files",
-        exact_filename  => 'libsndfile-1.0.27.tar.gz',
+        exact_filename  => 'libsndfile-1.0.28.tar.gz',
     },
     alien_build_commands => [
         '%c --prefix=%s',
